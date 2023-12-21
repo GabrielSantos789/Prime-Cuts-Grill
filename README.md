@@ -1,2 +1,4 @@
-# Cópia-Google-sites
- Projeto pessoal que copia um template do google sites
+#Sobre o projeto
+
+Esse site é sobre um restaurante fictício, com o cardápio especializado em carnes chamado 
+de Prime Cuts Grill's

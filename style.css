@@ -1,0 +1,218 @@
+@charset "UTF-8";
+
+@import url('https://fonts.googleapis.com/css2?family=DM+Serif+Text&display=swap');
+
+@font-face {
+    font-family:'MarchRough';
+    src: url('fontes/March\ Rough.ttf');
+}
+
+:root {
+    /*Fontes*/
+    --fonte01:'MarchRough', serif;
+    --fonte02:'DM Serif Text', serif;
+    --fonte03:Arial, Helvetica, sans-serif;
+
+    /*Cores*/
+    --imagem-fundo:url('imagens/Old-Wood-Texture.jpg');
+    --cor-letras:#f1f1f1;
+    --cor-menu:#fffff6;  
+    --cor-fundo:#220f05;
+
+    --cor01:#564335;
+    --cor02:#690707;   
+    --cor03:#f1f1f1;
+    --cor04:#fffff6 ;
+    --cor05:#2b2a2a;
+}
+
+
+* {
+    /*Configurações do fundo*/
+    height: auto;
+    background-attachment: fixed;
+
+    /*Configurações gerais*/
+    margin: 0px;
+    padding: 0px;
+}
+
+html {
+    scroll-behavior: smooth;
+}
+
+/*----------------------------------------<header>-----------------------------------------------*/
+
+header {
+    background-image: var(--imagem-fundo);
+}
+
+header > h1 {
+    font-family:var(--fonte01);
+    color: var(--cor-letras);
+    font-weight: normal;
+    font-size: 2.3em;
+    padding: 7px;
+}
+
+header > p {
+    font-family: var(--fonte02);
+    color: var(--cor-letras);
+    font-size: 1em;
+    padding-left: 7px;
+}
+
+/*----------------------------------------<header>-----------------------------------------------*/
+
+nav ul {
+    text-align: right;
+}
+
+nav li {
+    display: inline-block;
+    padding: 18px 7px;
+}
+
+nav a {
+    font-family: var(--fonte02);
+    color: var(--cor-letras);
+    text-decoration: none;
+    font-size: 1.2em;
+    padding: 3px;
+}
+
+nav a:hover {
+    color: #dddada;
+}
+/*-----------------------------------------<main>-----------------------------------------*/
+
+main {
+    background-color: var(--cor-fundo);
+    color: var(--cor-letras);
+}
+
+main > img {
+    display: block;
+    margin: auto;
+    width: 90%
+}
+
+.section-main {
+    width: 70%;
+    font-family: var(--fonte02);
+    padding: 56px;
+    font-size: 1.5em;
+    margin: auto;
+}
+
+.menu {
+    margin: auto;
+    width: 80%;
+    background-color: var(--cor-letras);
+    color: var(--cor-fundo);
+    border-radius: 5px;
+}
+
+.menu ul {
+    padding: 30px;
+}
+
+.menu h1 {
+    text-align: center;
+    font-family: var(--fonte01);
+    font-size: 2.3em;
+    font-weight: normal;
+    margin-bottom: 20px;
+}
+
+.menu li {
+    list-style-position: inside;
+    list-style-type: none;
+}
+
+.menu li > h2 {
+    font-family: var(--fonte01);
+    font-size: 1.7em;
+    font-weight: normal;
+}
+
+.menu dl {
+    padding: 9px 17px;
+}
+
+.menu dt {
+    font-family: var(--fonte02);
+    font-size: 1.3em;
+}
+
+.menu dd {
+    font-family: var(--fonte03);
+    font-size: 0.85em;
+}
+
+.price {
+    font-family: var(--fonte02);
+    font-weight: normal;
+    font-size: 1.5em;
+}
+
+.quote {
+    width: 60%;
+    margin: auto;
+    padding: 71px;
+}
+
+blockquote {
+    text-align: center;
+    font-family: var(--fonte02);
+    font-size: 2em;
+}
+
+.quote > p {
+    font-family: var(--fonte03);
+    padding: 3px;
+    font-size: 1em;
+}
+
+/*--------------------------------------<footer>------------------------------------------*/
+
+footer {
+    background-image: var(--imagem-fundo);
+    padding: 36px
+}
+
+#ext-links-list ul {
+    text-align: center;
+}
+
+#ext-links-list li {
+    display: inline-block;
+}
+
+#ext-links-list a {
+    font-family: var(--fonte02);
+    color: var(--cor-letras);
+    text-decoration: none;
+    padding: 10px;
+    font-size: 1.15em;   
+}
+
+#ext-links-list a:hover {
+    text-decoration: underline;
+}
+
+footer > p {
+    text-align: center;
+    margin-top: 10px;
+}
+
+footer > a {
+    text-decoration: none;
+    font-family: var(--fonte02);
+    font-size: 1.1em;
+    color: var(--cor-letras);
+}
+
+footer > a:hover {
+    text-decoration: underline;
+}
