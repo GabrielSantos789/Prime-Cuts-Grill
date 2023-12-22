@@ -4,7 +4,7 @@
 
 @font-face {
     font-family:'MarchRough';
-    src: url('fontes/March\ Rough.ttf');
+    src: url('fontes/March\ Rough.ttf') format('truetype');
 }
 
 :root {
