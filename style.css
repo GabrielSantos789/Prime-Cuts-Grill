@@ -39,8 +39,6 @@ html {
 
 header {
     background-image: var(--imagem-fundo);
-    background-position: cover;
-    background-repeat: no-repeat;
 }
 
 header > h1 {
@@ -174,8 +172,6 @@ blockquote {
 
 footer {
     background-image: var(--imagem-fundo);
-    background-position: cover;
-    background-repeat: no-repeat;
     padding: 36px
 }
 
